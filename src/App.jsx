@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import MainSection from './components/MainSection'
 import About from './components/About'
 import Tech from './components/Tech'
+import WorkSection from './components/WorkSection'
+import WorkDummy from './components/WorkDummy'
 
 const App = () => {
   
@@ -19,6 +21,8 @@ const App = () => {
           <MainSection/>
           <About/>
           <Tech/>
+          {/* <WorkSection/> */}
+          <WorkDummy/>
         </div>
         
       
